@@ -16,4 +16,10 @@
     <bool name="config_show_refresh_rate_controls">true</bool>
     <bool name="config_supports_dynamic_refresh_rate_controls">true</bool>
     <!-- If using legacy - please use config_show_min_refresh_rate_switch prop -->
+
+ <!-- PEX Maintainer -->
+    <string name="pex_maintainer_name" translatable="false">CHAITANYA</string>
+    <string name="pex_maintainer_group" translatable="false">https://t.me/chaitanyabuilds</string>
+
+
 </resources>
