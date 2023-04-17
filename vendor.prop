@@ -29,7 +29,7 @@ ro.vendor.audio.support.sound.id=true
 ro.vendor.audio.us.type=mius
 ro.vendor.audio.zoom.support=true
 ro.vendor.audio.zoom.type=1
-ro.config.media_vol_steps=15
+ro.config.media_vol_steps=25
 
 # Display
 ro.vendor.display.paneltype=2
