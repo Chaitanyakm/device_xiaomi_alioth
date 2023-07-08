@@ -21,5 +21,9 @@ PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO F3
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+<<<<<<< 68fc1e8411634ceb73dfa7914c49191d0c3e6341:lineage_alioth.mk
+=======
+BUILD_FINGERPRINT := Redmi/alioth_global/alioth:13/RKQ1.211001.001/V14.0.4.0.TKHMIXM:user/release-keys
+>>>>>>> Alioth: Update build fingerprints as per regions:aosp_alioth.mk
 
 BUILD_FINGERPRINT := POCO/alioth_global/alioth:12/SKQ1.211006.001/V13.0.6.0.SKHMIXM:user/release-keys
