@@ -13,8 +13,8 @@ static const variant_info_t aliothin_info = {
     .hwc_value = "INDIA",
     .sku_value = "",
 
-    .mod_device = "alioth_in_global",
-    .brand = "Xiaomi",
+    .mod_device = "alioth_global",
+    .brand = "Mi",
     .device = "aliothin",
     .marketname = "Mi 11X",
     .model = "M2012K11AI",
@@ -27,7 +27,7 @@ static const variant_info_t alioth_global_info = {
     .hwc_value = "GLOBAL",
     .sku_value = "",
 
-    .mod_device = "alioth_in_global",
+    .mod_device = "alioth_global",
     .brand = "POCO",
     .device = "alioth",
     .marketname = "POCO F3",
@@ -41,7 +41,7 @@ static const variant_info_t alioth_info = {
     .hwc_value = "",
     .sku_value = "",
 
-    .mod_device = "alioth_in_global",
+    .mod_device = "alioth_global",
     .brand = "Redmi",
     .device = "alioth",
     .marketname = "K40",
