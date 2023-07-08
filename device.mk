@@ -43,6 +43,12 @@ PRODUCT_SYSTEM_PROPERTIES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/camerax-vendor-extensions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/camerax-vendor-extensions.xml
 
+# Miuicamera
+$(call inherit-product-if-exists, vendor/xiaomi/camera/products/miuicamera.mk)
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/camera/st_license.lic:$(TARGET_COPY_OUT_VENDOR)/etc/camera/st_license.lic
+
 # Dolby Support
 TARGET_USES_MIUI_DOLBY := true
 
